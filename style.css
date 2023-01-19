@@ -8,3 +8,17 @@ body{
     min-height: 100vh;
     background-color: #f9f9f9;
 }
+
+.calculator{
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(12, 42, 48);
+
+}
