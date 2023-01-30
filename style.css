@@ -17,11 +17,11 @@ body{
 }
 .calculator{
     flex: 0 0 22%;
-    margin: 5px 0;
+    margin: 7px 0;
     border: 1px solid #000;
     width: 300px;
-    height: 500px;
-    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    height: auto;
+    box-shadow: 4px 4px 30px rgba(46, 46, 46, 0.3);
     top: 0;
     left: 0;
     right: 0;
@@ -29,7 +29,6 @@ body{
     margin: auto;
     border-radius: 10px;
     background-color: rgb(12, 42, 48);
-
 }
 
 form input{
@@ -51,6 +50,7 @@ button{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    margin: 3px 0;
 }
 
 .btn-yellow{
@@ -59,6 +59,14 @@ button{
 }
 
 .btn-gray{
-    background: rgb(245, 146, 62);
+    background: rgb(97, 97, 97);
+    color: #fff;
+}
+.btn-equal{
+    background: rgb(3, 179, 12);
+    color: #fff;
+}
+.btn-clear{
+    background: rgb(255, 18, 18);
     color: #fff;
 }
